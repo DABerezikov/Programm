@@ -1,0 +1,64 @@
+// Импорт сторонних имен
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+/// <summary>
+/// Пространстрво имен
+/// Создание собственной библиотеки
+/// </summary>
+namespace ConsoleApp1
+{/// <summary>
+/// Главная составляющая единица приложения - класс
+/// Подробности в Теме 7. Структуры и введение в ООП
+/// </summary>
+    class Program
+    {
+        /// <summary>
+        /// Код, который выполняется в первую очередь
+        /// </summary>
+        /// <param name="args">Параметры ввода</param>
+        static void Main(string[] args) 
+        {
+            //Домашнее задание № 1
+
+            Console.WriteLine("Hello World!!!");     // Ввод текста
+                                                    // в консоль
+
+            Console.ReadKey();                      // Ожидание от пользователя
+                                                    // нажатия любой кнопки
+
+            //Домашнее задание № 2
+
+            Console.WriteLine("Hello ");            //Ввод слова "Hello "
+
+            
+            Console.WriteLine("World");             //Ввод слова "World"
+
+            
+            Console.WriteLine("!!!");              //Ввод "!!!"
+
+            Console.ReadKey();                     // Ожидание от пользователя
+                                                   // нажатия любой кнопки
+
+            Console.Write("Hello ");               //Ввод слова "Hello "
+
+            Console.Write("World");                //Ввод слова "World"
+
+
+            Console.Write("!!!");                  //Ввод "!!!"
+
+            Console.ReadKey();                     // Ожидание от пользователя
+                                                   // нажатия любой кнопки
+
+            Console.WriteLine();                   // Переход на новую строку
+
+            Console.Write("Спасибо за внимание!"); // Ввод "Спасибо за внимание!"
+
+            Console.ReadKey();                     // Ожидание от пользователя
+                                                    // нажатия любой кнопки
+
+        }
+    }
+}
